@@ -1,6 +1,6 @@
 {
   "name": "location-hide",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "This module will hide src + href + content locations to protect your files for exploits. Works with every file type that fs can read!",
   "main": "index.js",
   "scripts": {
