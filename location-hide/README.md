@@ -1,5 +1,5 @@
-## *NEW*  Version 1.2.4  
-I'm pleased to announce that Version 1.2.4 works with almost every scenario!  
+## *NEW*  Version 1.2.5  
+I'm pleased to announce that Version 1.2.5 works with almost every scenario!  
   
 ## Difficult Level  
 3/10 even if you never used node.js  
