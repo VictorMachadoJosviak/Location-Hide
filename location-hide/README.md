@@ -1,14 +1,50 @@
-## *NEW*  Version 1.2.5  
-I'm pleased to announce that Version 1.2.5 works with almost every scenario!  
+## Live DEMO  
+I created this before and after preview for you with a sample free website template. Please read the text below to understand what you can hide and what not. Also dudes I offer you this script complete for free + updates so please don´t try to damage/attack the preview  
+server. Thank you for understanding.   
+  
+*KNOWN BUGS*  
+Also please notice that this preview pages got sample advertisement popunder to show you that you can also include those kind of scripts.  
+But the problem is those scripts will open before everything else and can crash the load of your js files. This maybe will happen to you with other js scripts aswell(Maybe you can make timeouts on your scripts to workaround this). But this only happens when you never visited the site and your cache is empty. After refresh everything will work. On this live demo you can see it if there is no close button when you open a image + missing effects. You will see it!  
+If you want to workaround this you need to refresh the page after the user open your site. You can easy do this with javascript/jQuery.  
+Then set a cookie that this will be only done once. You can make a cool ajax loader or something that users don´t think hey why is my site loading again :)  
+  
+Also you should never input your advertise code before the crypt process, because maybe you crash your advertise codes with this!  
+  
+Original Website Template [DOWNLOAD]:  
+https://templated.co/visualize  
+  
+LIVE DEMO ORIGINAL:  
+www.forbiddentube.online/samplepage/original  
+  
+LIVE DEMO CRYPTED WITH LOCATION HIDE:  
+www.forbiddentube.online/samplepage  
+  
+  
+## GitHub  
+https://github.com/arenacheck/Location-Hide  
+  
+  
+## *NEW*   Version 1.3.2  
+I'm pleased to announce that Version 1.3.2 works with almost every scenario!  
+This is a ongoing project. In a couple of days the next generation import script faker will be included in this project stay tuned.  
+  
+Added:  
+• .jpg was added to src section  
+• id="" + class="" UPDATE  
+• iframe src support if the link contain /embed/  
+  
+Fixed:  
+• HOT The delete step of the path will be done now for everything. Added .delay( 10000 ); to every src delete event to dodge load bugs
+More information below  
   
 ## Difficult Level  
 3/10 even if you never used node.js  
   
   
 ## For what is this plugin? - Short Answer  
-At the moment you can hide src="", href="", content="" values with javascript. Maybe future releases will include more like id and class!  
+At the moment you can hide src="", href="", content="", id="", class="" values with javascript.
 You import as example your index.html or every other file that fs can read and then you get a crypted index.html & external js include file.  
-src="", href="", content="" will be replace with data attributes and get load via javascript.  
+src="", href="", content="", id="", class="" will be replace with data attributes and get load via javascript.  
 Invisible in source code and inspect source code*Read IMPORTANT 2 KNOW  
 Even if you can reverse it you can protect your website for people searching manually for explotits because of obfuscation.  
 It will be harder for attackers.  
@@ -30,6 +66,7 @@ href="<?php echo $home; ?>"
   
   
   
+  
 You can´t hide your javascript code 100% because you send it to the user when he opens your website. But this script will hide the src=""  
 part from the source code & also from the inspect code + add obfuscation. But if you search deeper you will find the js files.  
 Also if you try to protect your js files with .htaccess it will not work because the user have to get to js code if you want that he can use it.  
@@ -45,6 +82,8 @@ The only method to protect your script is to run it manually and then send the g
 ## For what is this plugin? - Long Answer & How to  
   
 Good 2 know before start:  
+If your js scripts use css selector or jquery selector like $('#sample') then you need to change this to the generated data value  
+  
 Place all your scripts that you want to protect into a folder at the root of your website as example dir name _  
   
 Because before you have maybe  
@@ -83,14 +122,17 @@ Then in a external js file you can add the generated jquery code that will be ge
 $(document).ready(function() {  
 var qRlhGXpAjYCmwyVlAnbJmUABkGzIavYdkcVArRvICzLhaeJbbV = document.querySelectorAll('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWxOqBtKgsYkZEmWzPKybVKvJGtkXTWDnc"]');  
 $('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWxOqBtKgsYkZEmWzPKybVKvJGtkXTWDnc"]').attr("src", "_/sample.js");  
-$('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWxOqBtKgsYkZEmWzPKybVKvJGtkXTWDnc"]').attr("src", "");  
+$('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWxOqBtKgsYkZEmWzPKybVKvJGtkXTWDnc"]').attr("src", "").delay( 10000 );  
 });  
 ```  
   
+*IMPORTANT*  
+I use at the moment delay of 10000 to dodge loading bugs. Maybe you need to put it higher for some server or scripts or lower if it takes too long for you. If you need to upgrade the delay time then you can add a ajax loader or something like this until the delay is over.  
+  
 The js file will be loaded and then the src path will be deleted. This step deletes the src path from the source code.  
-The delete step will only be used at src.
-For me it works for canvas animation and other stuff. Maybe it will not work for live scripts.
-If you found bugs please contact me at upwork. 
+This will be done on every supported attribute of the script.  
+For me it works for canvas animation, href and other stuff. Maybe it will not work for live scripts.  
+If you found bugs please contact me at upwork or wrote a comment at github.   
   
   
   
@@ -124,11 +166,11 @@ Step 2: Install this plugins and include it on your file
   
 ```  
 const location_hide = require('location-hide'),  
-      path = require('path'),  
-      filePath = path.join(__dirname, './index.html'), // <-- FILE IMPORT HERE  
-      fs = require('fs'),  
-      randomize = require('randomatic'),  
-      simpleTimestamp = require('simple-timestamp');  
+path = require('path'),  
+filePath = path.join(__dirname, './index.html'), // <-- FILE IMPORT HERE  
+fs = require('fs'),  
+randomize = require('randomatic'),  
+simpleTimestamp = require('simple-timestamp');  
 ```  
 *IMPORTANT*  
 If you want to change the const names you need to change them aswell in node_modules\location-hide\index.js  
