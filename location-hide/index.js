@@ -239,8 +239,6 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
          var random3 = randomize('Aa', 50)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');"
          + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"href\", \"" + href_nolink_onlyurl + "\");"
-         + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + "" + "\")"
-         + ".delay( 10000 ); // IF YOU GOT LOADING BUGS THEN INCREASE THE DELAY TIME\n" // // IF you increase the time and still got no loading then it maybe wont work dude :)
          __.push(FINAL)
 
           if (_._.indexOf(href) >= 0) {
@@ -406,10 +404,7 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
          var random = randomize('Aa', 50)
          var random2 = randomize('Aa', 50)
          var random3 = randomize('Aa', 50)
-         var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');"
-         + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"content\", \"" + content_onlyurl + "\");"
-         + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + "" + "\")"
-         + ".delay( 10000 ); // IF YOU GOT LOADING BUGS THEN INCREASE THE DELAY TIME\n" // // IF you increase the time and still got no loading then it maybe wont work dude :)
+         var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"content\", \"" + content_onlyurl + "\");\n"
          __content.push(FINAL)
 
           if (_._.indexOf(content) >= 0) {
@@ -476,10 +471,7 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
          var random = randomize('Aa', 50)
          var random2 = randomize('Aa', 50)
          var random3 = randomize('Aa', 50)
-         var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');"
-         + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"id\", \"" + id_onlyurl + "\");"
-         + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + "" + "\")"
-         + ".delay( 10000 ); // IF YOU GOT LOADING BUGS THEN INCREASE THE DELAY TIME\n" // // IF you increase the time and still got no loading then it maybe wont work dude :)
+         var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"id\", \"" + id_onlyurl + "\");\n"
           __id.push(FINAL)
 
           if (_._.indexOf(id) >= 0) {
