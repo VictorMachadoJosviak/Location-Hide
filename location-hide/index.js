@@ -57,11 +57,13 @@ var __5 = []
         crypted_file3 = 'Location Hider by WWW.HORNYFAMILY.ONLINE -- PASTE THIS IN EXTERNAL SCRIPT AND INLCUDE IT TO YOUR WEBSITE' + simpleTimestamp().replace(new RegExp(/[.]/gmi),"_");
         crypted_file2 = crypted_file + '.' + file_extension[1];
         crypted_file4 = crypted_file3 + '.js'
+        importedlooplength = Loop_Length_fake_include_scripts
 
 
 
       //  console.log('File Path:', filePath);
         console.log('File Extension of imported file:', file_extension[1]);
+        console.log('Loop Length for fake include scripts:', importedlooplength);
 
 
 
@@ -213,9 +215,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
              href_onlyurl = href_onlyurl.replace(new RegExp(/["]/gmi),"");
 
          //console.log('enter_1')
-         var random = randomize('Aa', 50)
-         var random2 = randomize('Aa', 50)
-         var random3 = randomize('Aa', 50)
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').on('click', function(){\nlocation.href = \"" + href_onlyurl + "\";\n})\n"
          __.push(FINAL)
 
@@ -234,9 +236,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
              href_nolink_onlyurl = href_nolink_onlyurl.replace(new RegExp(/["]/gmi),"");
 
 
-         var random = randomize('Aa', 50)
-         var random2 = randomize('Aa', 50)
-         var random3 = randomize('Aa', 50)
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');"
          + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"href\", \"" + href_nolink_onlyurl + "\");"
          __.push(FINAL)
@@ -308,9 +310,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
              src_onlyurl = src_onlyurl.replace(new RegExp(/["]/gmi),"");
 
 
-         var random = randomize('Aa', 50)
-         var random2 = randomize('Aa', 50)
-         var random3 = randomize('Aa', 50)
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + src_onlyurl + "\");\n"
           __src.push(FINAL)
 
@@ -331,9 +333,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
              src_onlyurl = src_onlyurl.replace(new RegExp(/["]/gmi),"");
 
 
-         var random = randomize('Aa', 50)
-         var random2 = randomize('Aa', 50)
-         var random3 = randomize('Aa', 50)
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');"
          + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + src_onlyurl + "\");"
          + "\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + "" + "\")"
@@ -401,9 +403,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
              console.log('content_onlyurl:', content_onlyurl)
 
 
-         var random = randomize('Aa', 50)
-         var random2 = randomize('Aa', 50)
-         var random3 = randomize('Aa', 50)
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"content\", \"" + content_onlyurl + "\");\n"
          __content.push(FINAL)
 
@@ -468,9 +470,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
              id_onlyurl = id_onlyurl.replace(new RegExp(/["]/gmi),"");
 
 
-         var random = randomize('Aa', 50)
-         var random2 = randomize('Aa', 50)
-         var random3 = randomize('Aa', 50)
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"id\", \"" + id_onlyurl + "\");\n"
           __id.push(FINAL)
 
@@ -531,9 +533,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
              classes_onlyurl = classes_onlyurl.replace(new RegExp(/["]/gmi),"");
 
 
-         var random = randomize('Aa', 50)
-         var random2 = randomize('Aa', 50)
-         var random3 = randomize('Aa', 50)
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
          var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"class\", \"" + classes_onlyurl + "\");\n"
           __class.push(FINAL)
 
@@ -557,8 +559,10 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
 
 
 
-
-
+// THIS SECTION WILL BE RUN AFTER THE LOOP THAT CREATE THE FAKE JS FILES
+//////// Adjust the amount of fake script includes that will be generated with importedlooplength - look at your const code for easy change
+loop(importedlooplength, each, function (error) {
+console.log('loop for fake scripts done, error? ', error)
 
 
 
@@ -627,9 +631,15 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
                 //  ╚██████╗██║**██║***██║***██║********██║***███████╗██████╔╝****██║*****██║███████╗███████╗
                 //  *╚═════╝╚═╝**╚═╝***╚═╝***╚═╝********╚═╝***╚══════╝╚═════╝*****╚═╝*****╚═╝╚══════╝╚══════╝
                 //  Here the original file will exported as crypted file
+                 
+                
+                   
 
-                            // remove everything inside "" to remove the credits of www.hornyfamily.online
-                _._ = _._ + "\n<!--  *██████╗██████╗*███████╗*█████╗*████████╗███████╗██████╗*****██████╗*██╗***██╗*******************************************************************************************-->\n<!--  ██╔════╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔════╝██╔══██╗****██╔══██╗╚██╗*██╔╝*******************************************************************************************-->\n<!--  ██║*****██████╔╝█████╗**███████║***██║***█████╗**██║**██║****██████╔╝*╚████╔╝********************************************************************************************-->\n<!--  ██║*****██╔══██╗██╔══╝**██╔══██║***██║***██╔══╝**██║**██║****██╔══██╗**╚██╔╝*********************************************************************************************-->\n<!--  ╚██████╗██║**██║███████╗██║**██║***██║***███████╗██████╔╝****██████╔╝***██║**********************************************************************************************-->\n<!--  *╚═════╝╚═╝**╚═╝╚══════╝╚═╝**╚═╝***╚═╝***╚══════╝╚═════╝*****╚═════╝****╚═╝**********************************************************************************************-->\n<!--  *************************************************************************************************************************************************************************-->\n<!--  ██╗****██╗██╗****██╗██╗****██╗***██╗**██╗*██████╗*██████╗*███╗***██╗██╗***██╗███████╗*█████╗*███╗***███╗██╗██╗**██╗***██╗*██████╗*███╗***██╗██╗*****██╗███╗***██╗███████╗-->\n<!--  ██║****██║██║****██║██║****██║***██║**██║██╔═══██╗██╔══██╗████╗**██║╚██╗*██╔╝██╔════╝██╔══██╗████╗*████║██║██║**╚██╗*██╔╝██╔═══██╗████╗**██║██║*****██║████╗**██║██╔════╝-->\n<!--  ██║*█╗*██║██║*█╗*██║██║*█╗*██║***███████║██║***██║██████╔╝██╔██╗*██║*╚████╔╝*█████╗**███████║██╔████╔██║██║██║***╚████╔╝*██║***██║██╔██╗*██║██║*****██║██╔██╗*██║█████╗**-->\n<!--  ██║███╗██║██║███╗██║██║███╗██║***██╔══██║██║***██║██╔══██╗██║╚██╗██║**╚██╔╝**██╔══╝**██╔══██║██║╚██╔╝██║██║██║****╚██╔╝**██║***██║██║╚██╗██║██║*****██║██║╚██╗██║██╔══╝**-->\n<!--  ╚███╔███╔╝╚███╔███╔╝╚███╔███╔╝██╗██║**██║╚██████╔╝██║**██║██║*╚████║***██║***██║*****██║**██║██║*╚═╝*██║██║███████╗██║██╗╚██████╔╝██║*╚████║███████╗██║██║*╚████║███████╗-->\n<!--  *╚══╝╚══╝**╚══╝╚══╝**╚══╝╚══╝*╚═╝╚═╝**╚═╝*╚═════╝*╚═╝**╚═╝╚═╝**╚═══╝***╚═╝***╚═╝*****╚═╝**╚═╝╚═╝*****╚═╝╚═╝╚══════╝╚═╝╚═╝*╚═════╝*╚═╝**╚═══╝╚══════╝╚═╝╚═╝**╚═══╝╚══════╝-->\n<!--  *************************************************************************************************************************************************************************-->\n\n<!-------------------- WWW.HORNYFAMILY.ONLINE -------------------->\n\n\n\n"
+
+
+                _._ = _._
+                // remove everything inside "" to remove the credits of www.hornyfamily.online
+                + "\n<!--  *██████╗██████╗*███████╗*█████╗*████████╗███████╗██████╗*****██████╗*██╗***██╗*******************************************************************************************-->\n<!--  ██╔════╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔════╝██╔══██╗****██╔══██╗╚██╗*██╔╝*******************************************************************************************-->\n<!--  ██║*****██████╔╝█████╗**███████║***██║***█████╗**██║**██║****██████╔╝*╚████╔╝********************************************************************************************-->\n<!--  ██║*****██╔══██╗██╔══╝**██╔══██║***██║***██╔══╝**██║**██║****██╔══██╗**╚██╔╝*********************************************************************************************-->\n<!--  ╚██████╗██║**██║███████╗██║**██║***██║***███████╗██████╔╝****██████╔╝***██║**********************************************************************************************-->\n<!--  *╚═════╝╚═╝**╚═╝╚══════╝╚═╝**╚═╝***╚═╝***╚══════╝╚═════╝*****╚═════╝****╚═╝**********************************************************************************************-->\n<!--  *************************************************************************************************************************************************************************-->\n<!--  ██╗****██╗██╗****██╗██╗****██╗***██╗**██╗*██████╗*██████╗*███╗***██╗██╗***██╗███████╗*█████╗*███╗***███╗██╗██╗**██╗***██╗*██████╗*███╗***██╗██╗*****██╗███╗***██╗███████╗-->\n<!--  ██║****██║██║****██║██║****██║***██║**██║██╔═══██╗██╔══██╗████╗**██║╚██╗*██╔╝██╔════╝██╔══██╗████╗*████║██║██║**╚██╗*██╔╝██╔═══██╗████╗**██║██║*****██║████╗**██║██╔════╝-->\n<!--  ██║*█╗*██║██║*█╗*██║██║*█╗*██║***███████║██║***██║██████╔╝██╔██╗*██║*╚████╔╝*█████╗**███████║██╔████╔██║██║██║***╚████╔╝*██║***██║██╔██╗*██║██║*****██║██╔██╗*██║█████╗**-->\n<!--  ██║███╗██║██║███╗██║██║███╗██║***██╔══██║██║***██║██╔══██╗██║╚██╗██║**╚██╔╝**██╔══╝**██╔══██║██║╚██╔╝██║██║██║****╚██╔╝**██║***██║██║╚██╗██║██║*****██║██║╚██╗██║██╔══╝**-->\n<!--  ╚███╔███╔╝╚███╔███╔╝╚███╔███╔╝██╗██║**██║╚██████╔╝██║**██║██║*╚████║***██║***██║*****██║**██║██║*╚═╝*██║██║███████╗██║██╗╚██████╔╝██║*╚████║███████╗██║██║*╚████║███████╗-->\n<!--  *╚══╝╚══╝**╚══╝╚══╝**╚══╝╚══╝*╚═╝╚═╝**╚═╝*╚═════╝*╚═╝**╚═╝╚═╝**╚═══╝***╚═╝***╚═╝*****╚═╝**╚═╝╚═╝*****╚═╝╚═╝╚══════╝╚═╝╚═╝*╚═════╝*╚═╝**╚═══╝╚══════╝╚═╝╚═╝**╚═══╝╚══════╝-->\n<!--  *************************************************************************************************************************************************************************-->\n\n<!-------------------- WWW.HORNYFAMILY.ONLINE -------------------->\n\n\n\n"
 
                 fs.appendFile(crypted_file2, _._, function (err) {
                 if (err) {
@@ -641,6 +651,70 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
                 }); // fs.appendFile('_INCLUDE-THIS-CODE_EXPORT.txt', _.string, function (err) {
 
         
+
+
+
+
+                      }); // loop(importedlooplength, each, function (error) {
+
+                      function each (next, i) {
+                      setTimeout(function () {
+
+                      _.fakescripts = randomize('Aa0', 100)
+                      _.fakescripts_empty = randomize('Aa0', 100)
+                      _.fakescripts_empty2 = randomize('Aa0', 100)
+                      _._ = _._
+                      // real fake scripts
+                      + "\n<script src=\"_/" + _.fakescripts + ".js\"></script>\n"
+
+
+                      
+                         var fakenumber = randomize('000')
+                         loop(fakenumber, each, function (error) {
+                         console.log('loop for fake scripts done, error? ', error)
+                         // ..
+                         }); // loop(importedlooplength, each, function (error) {
+
+
+
+
+
+                            function each (next, i) {
+                            setTimeout(function () {
+
+
+                            var fakegenerator = randomize('Aa0!', 1000);
+                            var fakegenerator2 = randomize('Aa0!', 690);
+
+                            var createme = "var " + randomize('Aa', 1000) + " = " + fakegenerator2
+                            var createme2 = createme + "\n\nvar " + randomize('Aa', 1000) + " = " + fakegenerator2
+
+                            var exportrdy = "./FAKE_SCRIPTS_EXPORT_AREA/" + _.fakescripts + ".js"
+
+                                fs.appendFile(exportrdy, createme2, function (err) {
+                                if (err) {
+                                console.log('WARNING - run into error at saving files into /FAKE_SCRIPTS_EXPORT_AREA/', err);
+                                } // if (err) {
+                                else {
+                                console.log('############### FINISH CURRENT LOOP FOR - ' + exportrdy + ' - ####################')
+                                }; // else from if (err) {
+                                }); // fs.appendFile('_INCLUDE-THIS-CODE_EXPORT.txt', _.string, function (err) {
+
+                                }, 50) //  setTimeout(function () {
+                                } // function each (next, i) {
+
+
+
+
+
+
+                      next()
+
+                      }, 50) //  setTimeout(function () {
+                      } // function each (next, i) {
+
+
+
 
 
 
