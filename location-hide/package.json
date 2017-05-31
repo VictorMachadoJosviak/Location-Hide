@@ -1,6 +1,6 @@
 {
   "name": "location-hide",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "This module will hide src + href + content + id + class locations to protect your files for exploits. Now also create fake include scripts with FSIG(Fake Script Include Generator) + add other obfuscation",
   "main": "index.js",
   "scripts": {
