@@ -302,31 +302,9 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
           else{
 
 
-           if ( src.match( /([.]jpg|[/]embed[/])|juicyads[.]com[/]adshow[.]php[?]/ ) ) {
-          //******************************//
-         console.log('enter_src')
-         var src_onlyurl = src.replace(new RegExp(/^ /gmi),"");
-             src_onlyurl = src_onlyurl.replace(new RegExp(/src[=]["]/gmi),"");
-             src_onlyurl = src_onlyurl.replace(new RegExp(/["]/gmi),"");
+           if (src.indexOf(".js") >= 0) {
 
-
-         var random = randomize('Aa', 100)
-         var random2 = randomize('Aa', 100)
-         var random3 = randomize('Aa', 100)
-         var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + src_onlyurl + "\");\n"
-          __src.push(FINAL)
-
-            if (_._.indexOf(src) >= 0) {
-            //console.log('src found in _._');
-            var replace = "data-" + random2 + "=\"" + random3 + "\""
-            _._ = _._.replace(src,replace)
-            } // if (_._.indexOf(src) >= 0) {
-            //******************************//
-           } //  if (src.indexOf(".jpg") >= 0) {
-           else{
-
-
-         //******************************//
+             //******************************//
          console.log('enter_src')
          var src_onlyurl = src.replace(new RegExp(/^ /gmi),"");
              src_onlyurl = src_onlyurl.replace(new RegExp(/src[=]["]/gmi),"");
@@ -348,6 +326,31 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
           _._ = _._.replace(src,replace)
           } // if (_._.indexOf(src) >= 0) {
           //******************************//
+
+           } //  if if (src.indexOf(".js") >= 0) {
+           else{
+
+          //******************************//
+         console.log('enter_src')
+         var src_onlyurl = src.replace(new RegExp(/^ /gmi),"");
+             src_onlyurl = src_onlyurl.replace(new RegExp(/src[=]["]/gmi),"");
+             src_onlyurl = src_onlyurl.replace(new RegExp(/["]/gmi),"");
+
+
+         var random = randomize('Aa', 100)
+         var random2 = randomize('Aa', 100)
+         var random3 = randomize('Aa', 100)
+         var FINAL = "\nvar " + random + " = document.querySelectorAll('[data-" + random2 + "=\"" + random3 + "\"]');\n$('[data-" + random2 + "=\"" + random3 + "\"]').attr(\"src\", \"" + src_onlyurl + "\");\n"
+          __src.push(FINAL)
+
+            if (_._.indexOf(src) >= 0) {
+            //console.log('src found in _._');
+            var replace = "data-" + random2 + "=\"" + random3 + "\""
+            _._ = _._.replace(src,replace)
+            } // if (_._.indexOf(src) >= 0) {
+            //******************************//
+
+        
 
 
             } // else from if (src.indexOf(".jpg") >= 0) {
