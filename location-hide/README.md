@@ -1,3 +1,12 @@
+## FSIG(Fake Script Include Generator) added to Version 1.3.6  
+For more Information please look at: Long Answer & How to  
+For Live DEMO look at the source code the crypted sample page link below. You will find the code before the  
+```   
+</body>  
+```  
+
+Inside of this jungle from fake include scripts is the real include js file which was generated from this module.  
+
 ## Live DEMO  
 I created this before and after preview for you with a sample free website template. Please read the text below to understand what you can hide and what not. Also dudes I offer you this script complete for free + updates so please don´t try to damage/attack the preview server. Thank you for understanding.   
   
@@ -23,11 +32,12 @@ www.forbiddentube.online/samplepage
 https://github.com/arenacheck/Location-Hide  
   
   
-## *NEW*   Version 1.3.3  
-I'm pleased to announce that Version 1.3.3 works with almost every scenario!  
-This is a ongoing project. In a couple of days the next generation import script faker will be included in this project stay tuned.  
+## *NEW*   Version 1.3.6  
+I'm pleased to announce that Version 1.3.6 works with almost every scenario!  
+This is a ongoing project. Stay tuned for updates 
   
 Added:  
+• FSIG(Fake Script Include Generator)  
 • .jpg was added to src section  
 • id="" + class="" UPDATE  
 • iframe src support if the link contain /embed/  
@@ -43,10 +53,11 @@ Fixed:
 At the moment you can hide src="", href="", content="", id="", class="" values with javascript.
 You import as example your index.html or every other file that fs can read and then you get a crypted index.html & external js include file.  
 src="", href="", content="", id="", class="" will be replace with data attributes and get load via javascript.  
+Now also with obfuscation of all your data attributes + FSIG(Fake Script Include Generator).  
 Invisible in source code and inspect source code*Read IMPORTANT 2 KNOW  
 Even if you can reverse it you can protect your website for people searching manually for explotits because of obfuscation.  
-It will be harder for attackers.  
-  
+It will be harder for attackers.
+ 
 created by Dennis Demand - www.hornyfamily.online  
   
 This work is just for my portfolio at upwork. Everything from my side is CC0 (FREE PRIVATE & COMMERCIAL USE WITHOUT BACKLINK ) :)  
@@ -124,7 +135,41 @@ $('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWx
 });  
 ```  
   
-*IMPORTANT*  
+
+
+
+Since Version 1.3.6 is FSIG(Fake Script Include Generator) part of this project.  
+This nice tool allow you to add fake include scripts. As example  
+```  
+<script src="_/Dniw94XqAh6v69sMOy3PlajC0WlMZASgxs37FlnVcW5cX4k8vuwLTcyD3tWYxZPH1OBxRrnFRtKVf5bXbd24rNcdVfWNuBrhvaMl.js"></script>  
+
+<script src="_/TXCRCSq5xo335CGmApFbqWggJuiZmIzuPXGgHKWuQljXqIvKSdVeO4qNUmTcaIRlVpZ0wfA6h1I9MviVOs0KiD7bdRgNYiSy3gUD.js"></script>  
+
+<script src="_/vYmuX2f5tY3L0WGIBclT5j1qWyF2g5bEj026ZW90HzIaCMFjneLB2lYmofRbMy51YKXuiMbhNmNICKSk99OS6yoTTly2wAWVGQMp.js"></script>  
+
+```  
+This code will be paste at the end of your crypted file. You should cut it out and paste it directly before your  
+```   
+</body>  
+```  
+
+WHY IS THIS USEFUL?  
+Because now you can hide your external generated js file in this jungle of include codes. Just rename your all your files that you want to hide. Of course you should use the same character length for this. Just copy and change 2 or 3 letters.
+
+
+To avoid that attackers bulk download all scripts. I cant create empty script codes here, because then you can delete all 0KB scripts. You can also try to change the randomize values in the module index.js to generate different sizes for your fake scripts or change the content of your fake scripts.(I will offer in future a professional obfuscation solution for this stay tuned!)  
+Location Hide will create this files in the folder ./FAKE_SCRIPTS_EXPORT_AREA/ from the root of your path where you started the script  
+
+*LONG LOADING TIMES*  
+The default is 100 fake include scripts. The loading time is normal with this lineup. If you got problems then reduce the amount. If you got good servers and what better protection the increase the amount.
+
+
+You can define how much fake scripts you want with this const - please look bellow at installation guide 
+```  
+Loop_Length_fake_include_scripts = Number('100');  
+```  
+
+*IMPORTANT FOR CRYPTED JS FILES*  
 I use at the moment delay of 10000 to dodge loading bugs. Maybe you need to put it higher for some server or scripts or lower if it takes too long for you. If you need to upgrade the delay time then you can add a ajax loader or something like this until the delay is over.  
   
 The js file will be loaded and then the src path will be deleted. This step deletes the src path from the source code.  
@@ -164,12 +209,14 @@ npm install location-hide
 Step 2: Install this plugins and include it on your file  
   
 ```  
-const location_hide = require('location-hide'),  
-path = require('path'),  
-filePath = path.join(__dirname, './index.html'), // <-- FILE IMPORT HERE  
-fs = require('fs'),  
-randomize = require('randomatic'),  
-simpleTimestamp = require('simple-timestamp');  
+const location_hide = require('location-hide');  
+      path = require('path'),   
+      filePath = path.join(__dirname, './index.html'); // <-- FILE IMPORT HERE  
+      fs = require('fs');  
+      randomize = require('randomatic');  
+      loop = require('serial-loop');  
+      Loop_Length_fake_include_scripts = Number('100'); // <-- CHANGE AMOUNT OF FAKE INCLUDE SCRIPTS HERE
+      simpleTimestamp = require('simple-timestamp');  
 ```  
 *IMPORTANT*  
 If you want to change the const names you need to change them aswell in node_modules\location-hide\index.js  
@@ -186,6 +233,7 @@ For custom changes please look at node_modules\location-hide\index.js
   
 ## Where are my generated files?  
 The files will be exported to the root of your node.js script that runs the convert.  
+The fake include codes will be at in this folder also at the root ./FAKE_SCRIPTS_EXPORT_AREA/  
   
   
   
