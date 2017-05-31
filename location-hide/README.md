@@ -1,6 +1,5 @@
 ## Live DEMO  
-I created this before and after preview for you with a sample free website template. Please read the text below to understand what you can hide and what not. Also dudes I offer you this script complete for free + updates so please don´t try to damage/attack the preview  
-server. Thank you for understanding.   
+I created this before and after preview for you with a sample free website template. Please read the text below to understand what you can hide and what not. Also dudes I offer you this script complete for free + updates so please don´t try to damage/attack the preview server. Thank you for understanding.   
   
 *KNOWN BUGS*  
 Also please notice that this preview pages got sample advertisement popunder to show you that you can also include those kind of scripts.  
@@ -24,8 +23,8 @@ www.forbiddentube.online/samplepage
 https://github.com/arenacheck/Location-Hide  
   
   
-## *NEW*   Version 1.3.2  
-I'm pleased to announce that Version 1.3.2 works with almost every scenario!  
+## *NEW*   Version 1.3.3  
+I'm pleased to announce that Version 1.3.3 works with almost every scenario!  
 This is a ongoing project. In a couple of days the next generation import script faker will be included in this project stay tuned.  
   
 Added:  
@@ -34,8 +33,7 @@ Added:
 • iframe src support if the link contain /embed/  
   
 Fixed:  
-• HOT The delete step of the path will be done now for everything. Added .delay( 10000 ); to every src delete event to dodge load bugs
-More information below  
+• Added .delay( 10000 ); to every src delete event to dodge load bugs - more information below  
   
 ## Difficult Level  
 3/10 even if you never used node.js  
@@ -131,7 +129,8 @@ I use at the moment delay of 10000 to dodge loading bugs. Maybe you need to put 
   
 The js file will be loaded and then the src path will be deleted. This step deletes the src path from the source code.  
 This will be done on every supported attribute of the script.  
-For me it works for canvas animation, href and other stuff. Maybe it will not work for live scripts.  
+For me it works for canvas animation, other stuff. Maybe it will not work for live scripts.  
+THIS STEP ONLY WORKS FOR JS SCRIPTS! This will be not done for the other attributes like href.  
 If you found bugs please contact me at upwork or wrote a comment at github.   
   
   
