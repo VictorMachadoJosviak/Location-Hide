@@ -1,4 +1,4 @@
-## FSIG(Fake Script Include Generator) added to Version 1.3.6  
+## FSIG(Fake Script Include Generator) added to Version 1.3.7  
 For more Information please look at: Long Answer & How to  
 For Live DEMO look at the source code the crypted sample page link below. You will find the code before the  
 ```   
@@ -32,8 +32,8 @@ www.forbiddentube.online/samplepage
 https://github.com/arenacheck/Location-Hide  
   
   
-## *NEW*   Version 1.3.6  
-I'm pleased to announce that Version 1.3.6 works with almost every scenario!  
+## *NEW*   Version 1.3.7  
+I'm pleased to announce that Version 1.3.7 works with almost every scenario!  
 This is a ongoing project. Stay tuned for updates 
   
 Added:  
@@ -138,7 +138,7 @@ $('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWx
 
 
 
-Since Version 1.3.6 is FSIG(Fake Script Include Generator) part of this project.  
+Since Version 1.3.7 is FSIG(Fake Script Include Generator) part of this project.  
 This nice tool allow you to add fake include scripts. As example  
 ```  
 <script src="_/Dniw94XqAh6v69sMOy3PlajC0WlMZASgxs37FlnVcW5cX4k8vuwLTcyD3tWYxZPH1OBxRrnFRtKVf5bXbd24rNcdVfWNuBrhvaMl.js"></script>  
