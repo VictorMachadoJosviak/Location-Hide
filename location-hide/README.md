@@ -1,4 +1,4 @@
-## FSIG(Fake Script Include Generator) added to Version 1.3.7  
+## FSIG(Fake Script Include Generator) added to Version 1.4.0  
 For more Information please look at: Long Answer & How to  
 For Live DEMO look at the source code the crypted sample page link below. You will find the code before the  
 ```   
@@ -11,8 +11,8 @@ Inside of this jungle from fake include scripts is the real include js file whic
 I created this before and after preview for you with a sample free website template. Please read the text below to understand what you can hide and what not. Also dudes I offer you this script complete for free + updates so please don´t try to damage/attack the preview server. Thank you for understanding.   
   
 *KNOWN BUGS*  
-Also please notice that this preview pages got sample advertisement popunder to show you that you can also include those kind of scripts.  
-But the problem is those scripts will open before everything else and can crash the load of your js files. This maybe will happen to you with other js scripts aswell(Maybe you can make timeouts on your scripts to workaround this). But this only happens when you never visited the site and your cache is empty. After refresh everything will work. On this live demo you can see it if there is no close button when you open a image + missing effects. You will see it!  
+Please notice that this preview pages got sample advertisement popunder to show you that you can also include those kind of scripts.  
+But the problem is those scripts will open before everything else and can crash the load of your js files. DON`T BE SCARED the following problem will only caused by some scripts in this example the popunder code. If I would remove this popunder code everything would be normal again. This maybe will happen to you with other js scripts aswell(Maybe you can make timeouts on your scripts to workaround this). But this only happens when you never visited the site and your cache is empty. After refresh everything will work. On this live demo you can see it if there is no close button when you open a image + missing effects. You will see it!  
 If you want to workaround this you need to refresh the page after the user open your site. You can easy do this with javascript/jQuery.  
 Then set a cookie that this will be only done once. You can make a cool ajax loader or something that users don´t think hey why is my site loading again :)  
   
@@ -32,15 +32,15 @@ www.forbiddentube.online/samplepage
 https://github.com/arenacheck/Location-Hide  
   
   
-## *NEW*   Version 1.3.7  
-I'm pleased to announce that Version 1.3.7 works with almost every scenario!  
+## *NEW*   Version 1.4.0  
+I'm pleased to announce that Version 1.4.0 works with almost every scenario!  
 This is a ongoing project. Stay tuned for updates 
   
 Added:  
 • FSIG(Fake Script Include Generator)  
 • .jpg was added to src section  
 • id="" + class="" UPDATE  
-• iframe src support if the link contain /embed/  
+• src section updated, should now work with almost everything + iframes 
   
 Fixed:  
 • Added .delay( 10000 ); to every src delete event to dodge load bugs - more information below  
@@ -138,7 +138,7 @@ $('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWx
 
 
 
-Since Version 1.3.7 is FSIG(Fake Script Include Generator) part of this project.  
+Since Version 1.4.0 is FSIG(Fake Script Include Generator) part of this project.  
 This nice tool allow you to add fake include scripts. As example  
 ```  
 <script src="_/Dniw94XqAh6v69sMOy3PlajC0WlMZASgxs37FlnVcW5cX4k8vuwLTcyD3tWYxZPH1OBxRrnFRtKVf5bXbd24rNcdVfWNuBrhvaMl.js"></script>  
