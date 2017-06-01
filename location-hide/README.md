@@ -1,4 +1,4 @@
-## FSIG(Fake Script Include Generator) added to Version 1.4.0  
+## FSIG(Fake Script Include Generator) added to Version 1.4.1  
 For more Information please look at: Long Answer & How to  
 For Live DEMO look at the source code the crypted sample page link below. You will find the code before the  
 ```   
@@ -32,8 +32,8 @@ www.forbiddentube.online/samplepage
 https://github.com/arenacheck/Location-Hide  
   
   
-## *NEW*   Version 1.4.0  
-I'm pleased to announce that Version 1.4.0 works with almost every scenario!  
+## *NEW*   Version 1.4.1  
+I'm pleased to announce that Version 1.4.1 works with almost every scenario!  
 This is a ongoing project. Stay tuned for updates 
   
 Added:  
@@ -138,7 +138,7 @@ $('[data-wchIyvpKUkArTeyUIZsCecKZRROZZzMNErxvtdIqWGkytjDyhJ="bCCngxHMRCbEnVtvOWx
 
 
 
-Since Version 1.4.0 is FSIG(Fake Script Include Generator) part of this project.  
+Since Version 1.4.1 is FSIG(Fake Script Include Generator) part of this project.  
 This nice tool allow you to add fake include scripts. As example  
 ```  
 <script src="_/Dniw94XqAh6v69sMOy3PlajC0WlMZASgxs37FlnVcW5cX4k8vuwLTcyD3tWYxZPH1OBxRrnFRtKVf5bXbd24rNcdVfWNuBrhvaMl.js"></script>  
@@ -161,7 +161,7 @@ To avoid that attackers bulk download all scripts. I cant create empty script co
 Location Hide will create this files in the folder ./FAKE_SCRIPTS_EXPORT_AREA/ from the root of your path where you started the script  
 
 *LONG LOADING TIMES*  
-The default is 100 fake include scripts. The loading time is normal with this lineup. If you got problems then reduce the amount. If you got good servers and what better protection the increase the amount.
+The default is 100 fake include scripts. The loading time is normal with this lineup. If you got problems then reduce the amount. If you got good servers and want better protection then increase the amount.
 
 
 You can define how much fake scripts you want with this const - please look bellow at installation guide 
