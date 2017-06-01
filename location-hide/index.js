@@ -302,7 +302,7 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
           else{
 
 
-           if (src.indexOf(".js") >= 0) {
+           if ( src.match(/[.]js["]$/gmi) ) {
 
              //******************************//
          console.log('enter_src')
