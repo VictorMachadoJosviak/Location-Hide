@@ -17,15 +17,15 @@ If you want to workaround this you need to refresh the page after the user open 
 Then set a cookie that this will be only done once. You can make a cool ajax loader or something that users don´t think hey why is my site loading again :)  
   
 Also you should never input your advertise code before the crypt process, because maybe you crash your advertise codes with this!  
-  
+
 Original Website Template [DOWNLOAD]:  
 https://templated.co/visualize  
   
 LIVE DEMO ORIGINAL:  
-www.forbiddentube.online/samplepage/original  
+http://bit.ly/2hUjKaL
   
 LIVE DEMO CRYPTED WITH LOCATION HIDE:  
-www.forbiddentube.online/samplepage  
+http://bit.ly/2vYu3R1 
   
   
 ## GitHub  
