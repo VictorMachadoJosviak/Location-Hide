@@ -58,7 +58,7 @@ Invisible in source code and inspect source code*Read IMPORTANT 2 KNOW
 Even if you can reverse it you can protect your website for people searching manually for explotits because of obfuscation.  
 It will be harder for attackers.
  
-created by Dennis Demand - www.hornyfamily.online  
+created by Dennis Demand 
   
 This work is just for my portfolio at upwork. Everything from my side is CC0 (FREE PRIVATE & COMMERCIAL USE WITHOUT BACKLINK ) :)  
   
@@ -238,5 +238,5 @@ The fake include codes will be at in this folder also at the root ./FAKE_SCRIPTS
   
   
 ## License  
-MIT - created by Dennis Demand - www.hornyfamily.online  
-You can do what ever you want with this script:) If you want to support the backlink to www.hornyfamily.online  
+MIT - created by Dennis Demand
+You can do what ever you want with this script:) 
