@@ -19,17 +19,15 @@ Then set a cookie that this will be only done once. You can make a cool ajax loa
 Also you should never input your advertise code before the crypt process, because maybe you crash your advertise codes with this!  
 
 Original Website Template [DOWNLOAD]:  
-https://templated.co/visualize  
+------------------- 
   
 LIVE DEMO ORIGINAL:  
-http://bit.ly/2hUjKaL
+-------------------
   
 LIVE DEMO CRYPTED WITH LOCATION HIDE:  
-http://bit.ly/2vYu3R1 
+------------------ 
   
-  
-## GitHub  
-https://github.com/arenacheck/Location-Hide  
+Sorry guys GitHub want me to remove my LIVE Demo links .. If you want Live Demo check this plugin on npmjs  
   
   
 ## *NEW*   Version 1.4.1  
