@@ -19,15 +19,15 @@ Then set a cookie that this will be only done once. You can make a cool ajax loa
 Also you should never input your advertise code before the crypt process, because maybe you crash your advertise codes with this!  
 
 Original Website Template [DOWNLOAD]:  
-------------------- 
+https://templated.co/visualize
   
 LIVE DEMO ORIGINAL:  
--------------------
+www.forbiddentube.online/samplepage/original
   
 LIVE DEMO CRYPTED WITH LOCATION HIDE:  
------------------- 
+www.forbiddentube.online/samplepage
   
-Sorry guys GitHub want me to remove my LIVE Demo links .. If you want Live Demo check this plugin on npmjs  
+The domain above contains sexual content and should be only viewed by persons over 18 years! 
   
   
 ## *NEW*   Version 1.4.1  
@@ -236,5 +236,8 @@ The fake include codes will be at in this folder also at the root ./FAKE_SCRIPTS
   
   
 ## License  
-MIT - created by Dennis Demand
-You can do what ever you want with this script:) 
+MIT - created by Dennis Demand - www.hornyfamily.online
+You can do what ever you want with this script:)
+
+The domain above contains sexual content and should be only viewed by persons over 18 years! 
+If you want to help you can make a backlink to my website.
