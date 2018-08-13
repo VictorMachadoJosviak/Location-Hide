@@ -236,8 +236,6 @@ The fake include codes will be at in this folder also at the root ./FAKE_SCRIPTS
   
   
 ## License  
-MIT - created by Dennis Demand - www.hornyfamily.online
-You can do what ever you want with this script:)
+MIT - created by Dennis Demand - upwork.com/fl/dennisdemand
 
-The domain above contains sexual content and should be only viewed by persons over 18 years! 
-If you want to help you can make a backlink to my website.
+Please contact me on Upwork when you need custom Software!
